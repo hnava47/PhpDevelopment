@@ -24,6 +24,3 @@ function getPeriods($url, $username, $password)
     curl_close($curl);
     echo $response;
 }
-
-echo getPeriods('OracleURL', 'OracleUsername', 'OraclePassword');
-?>
